@@ -1,3 +1,22 @@
+commit 02d962555a62e6921beded6e5de16a59a242f1b6
+Merge: 3e2c9df 9820a2b
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Wed Jan 18 15:37:33 2017 -0500
+
+    Merge branch 'master' of https://repo.gaul.csd.uwo.ca/scm/cs3342_w2017/hfahmy3
+
+commit 3e2c9dfbf8ce630e68d89f4228dda260a72159f2
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Wed Jan 18 15:37:13 2017 -0500
+
+    making sure set up correctly
+
+commit 9820a2b11550b6af2a57e85f91675a5d7d757edd
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 12:54:32 2017 -0500
+
+    updating practice framework and running summary.rb
+
 commit 5122ceca9a5bd1cffaa40751e91a2148c0982b84
 Author: Bob Webber <webber@csd.uwo.ca>
 Date:   Tue Jan 17 21:11:16 2017 -0500
