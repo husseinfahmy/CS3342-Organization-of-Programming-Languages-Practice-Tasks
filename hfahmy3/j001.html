@@ -4,14 +4,41 @@
 	<title>Hussein Fahmy J001</title>
 </head>
 <script type="text/javascript">
-	var today = new Date();
-	var date = today.getDate();
+//	var today = new Date();
+//	document.write(today);
 
-	document.write(today);
+	function onLoad(){
+		var today = new Date();
+		document.getElementById("stage1").innerHTML = today;
+	}	
+
+	function refresh(){
+		var today = new Date();
+		document.getElementById("stage2").innerHTML = today;
+	}	
 </script>
-<body>
+<body onload="onLoad()">
+	<div id="name">
+		<h1>
+			HUSSEIN FAHMY J001
+			<hr>			
+		</h1>
+	</div>
+	<h3>Stage 1</h3>
+	<div id="stage1">
+	</div>
+	<hr>
+	<h3>Stage 2</h3>
+	<div id="stage2">
+		Date Will Go Here
+	</div>
+	<hr>
+	<button onclick="refresh()">REFRESH</button>
+	<br>
+	<h3>Stage 3</h3>
+	<div id="stage3">
 
-
-
+	</div>
+	<hr>
 </body>
 </html>
