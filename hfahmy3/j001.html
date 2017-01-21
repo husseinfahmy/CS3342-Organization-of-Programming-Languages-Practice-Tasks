@@ -6,6 +6,8 @@
 <script type="text/javascript">
 //	var today = new Date();
 //	document.write(today);
+	var time = 0;
+	var isPaused = false;
 
 	function onLoad(){
 		var today = new Date();
@@ -16,6 +18,30 @@
 		var today = new Date();
 		document.getElementById("stage2").innerHTML = today;
 	}	
+
+	function reset(){
+		time = 0;
+	}
+
+	function  pause(){
+		isPaused = true;
+		document.getElementById("pauseStatus").innerHTML = "Currently Paused";
+	}
+
+	function unpause(){
+		isPaused = false;
+		document.getElementById("pauseStatus").innerHTML = "Currently Not Paused";
+	}
+
+	function timer(){
+		if(isPaused == false){
+			document.getElementById('stage3').innerHTML=time + " Seconds since page load.";	
+			time += 1;
+		}
+	}
+	// blink every 500 ms
+	window.setInterval(timer, 1000);
+
 </script>
 <body onload="onLoad()">
 	<div id="name">
@@ -37,7 +63,15 @@
 	<br>
 	<h3>Stage 3</h3>
 	<div id="stage3">
-
+		0 Seconds since page load.
+	</div>
+	<hr>
+	<h3>Stage 4</h3>
+	<div id="stage4">
+		<p id="pauseStatus">Currently Not Paused</p>
+		<button onclick="reset()">RESET</button>
+		<button onclick="pause()">PAUSE</button>
+		<button onclick="unpause()">UNPAUSE</button>
 	</div>
 	<hr>
 </body>
