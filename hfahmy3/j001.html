@@ -8,15 +8,20 @@
 //	document.write(today);
 	var time = 0;
 	var isPaused = false;
-
+	var pressedBefore = false;
 	function onLoad(){
 		var today = new Date();
 		document.getElementById("stage1").innerHTML = today;
+		document.getElementById("stage2Box").style.backgroundColor = "green";
 	}	
 
 	function refresh(){
+		if(pressedBefore==true){
+			document.getElementById("areaToBeRemoved").innerHTML = "";
+		}
 		var today = new Date();
 		document.getElementById("stage2").innerHTML = today;
+		pressedBefore=true;
 	}	
 
 	function reset(){
@@ -38,9 +43,20 @@
 	}
 
 	function timer(){
-		if(isPaused == false){
+
+		if(time>=3600){
+			document.getElementById("name").innerHTML = "HUSSEIN FAHMY J001" + " - COMMIT FOR CS3342"
+		}else if(isPaused == false){
 			document.getElementById('stage3').innerHTML=time + " Seconds since page load.";	
 			time += 1;
+		}
+
+		if((time>0)&&(time<=1800)){
+			document.getElementById("stage2Box").style.backgroundColor = "green";
+		}else if((time>1800)&&(time<=3000)){
+			document.getElementById("stage2Box").style.backgroundColor = "orange";
+		}else{
+			document.getElementById("stage2Box").style.backgroundColor = "red";
 		}
 	}
 	// blink every 500 ms
@@ -48,19 +64,22 @@
 
 </script>
 <body onload="onLoad()">
-	<div id="name">
-		<h1>
+	<div >
+		<h1 id="name">
 			HUSSEIN FAHMY J001
 			<hr>			
 		</h1>
 	</div>
-	<h3>Stage 1</h3>
-	<div id="stage1">
+	<div id="areaToBeRemoved">
+		<h3>Stage 1</h3>
+		<div id="stage1"></div>
+		<hr>
 	</div>
-	<hr>
 	<h3>Stage 2</h3>
-	<div id="stage2">
-		Date Will Go Here
+	<div id="stage2Box" style="padding-left:1%; width: 20%" >
+		<div id="stage2">
+			Date Will Go Here
+		</div>		
 	</div>
 	<hr>
 	<button onclick="refresh()">REFRESH</button>
