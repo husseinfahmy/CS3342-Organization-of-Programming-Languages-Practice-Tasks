@@ -8,11 +8,12 @@ j100
 ----- Fetching current practice times
 WARNING: minutes reduced to 60 from 60
 -------- Current practice times 
+9f9f0daef2d449e6cb2f1c6aecdd8e71832e779e j001 40
 798da9a6fce904e7a9f9f2bc6d5cab123130baef j001 60
 ----- Summary Report
 798da9a6fce904e7a9f9f2bc6d5cab123130baef j001 60
 ----- Time Log Report
 ------- By Task
-total time spent on task j001 was 60
-total time on all tasks according to this log was 60
-the percentage of weekly required practice time spent so far is 33.333333333333336% (target is 100.0%)
+total time spent on task j001 was 100
+total time on all tasks according to this log was 100
+the percentage of weekly required practice time spent so far is 55.55555555555556% (target is 100.0%)
