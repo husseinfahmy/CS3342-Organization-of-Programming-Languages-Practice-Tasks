@@ -1,3 +1,34 @@
+commit 734c4494ff521fbf95ba7087e3b3e1b8e052dd47
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 17:58:12 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 7edcdf25608f33bf7ffcb588aea81ff717aaadc5
+Merge: 798da9a abc314f
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sat Jan 21 17:46:46 2017 -0500
+
+    Merge branch 'master' of https://repo.gaul.csd.uwo.ca/scm/cs3342_w2017/hfahmy3
+
+commit 798da9a6fce904e7a9f9f2bc6d5cab123130baef
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sat Jan 21 17:44:10 2017 -0500
+
+    time j001 60 in-progress
+
+commit 2db467f42619225eb5cc1685e89c527e15ba55d8
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sat Jan 21 16:36:41 2017 -0500
+
+    finished stage 1
+
+commit abc314fbf21ede3e5e0d8f9cb03b7474aa307df7
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 16:00:29 2017 -0500
+
+    updating practice framework and running summary.rb
+
 commit bb8e08dada8d946c682b17d942ff64243f3b5844
 Author: Bob Webber <webber@csd.uwo.ca>
 Date:   Sat Jan 21 15:54:05 2017 -0500
