@@ -23,14 +23,18 @@
 		time = 0;
 	}
 
-	function  pause(){
-		isPaused = true;
-		document.getElementById("pauseStatus").innerHTML = "Currently Paused";
-	}
-
-	function unpause(){
-		isPaused = false;
-		document.getElementById("pauseStatus").innerHTML = "Currently Not Paused";
+	function  togglePause(){
+		if(isPaused == true){
+			isPaused = false;
+			document.getElementById("pauseStatus").innerHTML = "Currently Not Paused";
+			document.getElementById("pauseButton").innerHTML = "PAUSE";
+		}
+		else if(isPaused == false){
+			isPaused = true;
+			document.getElementById("pauseStatus").innerHTML = "Currently Paused";
+			document.getElementById("pauseButton").innerHTML = "RESUME";
+		}
+		
 	}
 
 	function timer(){
@@ -70,8 +74,7 @@
 	<div id="stage4">
 		<p id="pauseStatus">Currently Not Paused</p>
 		<button onclick="reset()">RESET</button>
-		<button onclick="pause()">PAUSE</button>
-		<button onclick="unpause()">UNPAUSE</button>
+		<button id="pauseButton" onclick="togglePause()">PAUSE</button>
 	</div>
 	<hr>
 </body>
