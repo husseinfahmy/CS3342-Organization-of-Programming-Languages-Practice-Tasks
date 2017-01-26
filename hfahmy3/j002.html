@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hussein Fahmy J001</title>
+	<title>Hussein Fahmy J002</title>
 </head>
 <script src="../javascript/j002/examdatabase.js"></script>
 <script type="text/javascript">
 
 	var currentQ = 0;
+	var i = 0;
 
 	function onLoad(){
 		document.getElementById("description").innerHTML = examdatabase.description;
 	}
 
 	function newQuestion(){
-		currentQ = Math.floor(Math.random() * (35 - 0 + 1)) + 0;
+		currentQ = Math.floor(Math.random() * (34 - 0 + 1)) + 0;
+		document.getElementById("question").innerHTML = examdatabase.questions[currentQ].question;
+		document.getElementById("answer").innerHTML = "";
+		i = 0;
 	}
 
 	function getAnswer(){
 
+		if(examdatabase.questions[currentQ].answer.length>1){
+			for (; i < examdatabase.questions[currentQ].answer.length; i++){
+				document.getElementById("answer").innerHTML += "Answer " + (i+1) + ":<br>";
+				document.getElementById("answer").innerHTML += examdatabase.questions[currentQ].answer[i] + "<br> <br>";	
+			}
+		}
 	}
 
 </script>
@@ -29,8 +39,13 @@
 		</h1>
 		<h4 id="description"></h4>
 
-		<button id="question" onclick="newQuestion()">Question</button>
-		<button id="answer" onclick="getAnswer()">Answer</button>
+		<button id="questionButton" onclick="newQuestion()">Question</button>
+		<button id="answerButton" onclick="getAnswer()">Answer</button>
+		<hr>
+		<label id="question"></label>
+		<hr>
+		<h4>Answer</h4>
+		<label id="answer"></label>
 	</div>
 </body>
 </html>
