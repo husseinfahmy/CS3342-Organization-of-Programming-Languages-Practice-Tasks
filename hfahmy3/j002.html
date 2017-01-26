@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hussein Fahmy J001</title>
+</head>
+<script src="../javascript/j002/examdatabase.js"></script>
+<script type="text/javascript">
+
+	var currentQ = 0;
+
+	function onLoad(){
+		document.getElementById("description").innerHTML = examdatabase.description;
+	}
+
+	function newQuestion(){
+		currentQ = Math.floor(Math.random() * (35 - 0 + 1)) + 0;
+	}
+
+	function getAnswer(){
+
+	}
+
+</script>
+<body onload="onLoad()">
+	<div>
+		<h1 id="name">
+			HUSSEIN FAHMY J002
+			<hr>			
+		</h1>
+		<h4 id="description"></h4>
+
+		<button id="question" onclick="newQuestion()">Question</button>
+		<button id="answer" onclick="getAnswer()">Answer</button>
+	</div>
+</body>
+</html>
