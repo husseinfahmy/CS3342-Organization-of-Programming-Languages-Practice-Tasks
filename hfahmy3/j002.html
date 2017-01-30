@@ -10,35 +10,47 @@
 	var i = 0;
 	var correctCount = 0;
 	var incorrectCount = 0;
+	var nextQEligible = true;
 
 	function onLoad(){
 		document.getElementById("description").innerHTML = examdatabase.description;
+
+		document.getElementById("correctAndIncorrect").innerHTML = "Correct: " + correctCount + " Incorrect: " + incorrectCount; 
 	}
 
 	function newQuestion(){
-		currentQ = Math.floor(Math.random() * (34 - 0 + 1)) + 0;
-		document.getElementById("question").innerHTML = examdatabase.questions[currentQ].question;
-		document.getElementById("answer").innerHTML = "";
-		i = 0;
+		if(nextQEligible == true){
+			currentQ = Math.floor(Math.random() * (34 - 0 + 1)) + 0;
+			document.getElementById("question").innerHTML = examdatabase.questions[currentQ].question;
+			document.getElementById("answer").innerHTML = "";
+			i = 0;
+			nextQEligible = false;
+		}else{
+			window.alert("You must indicate whether your answer was correct or incorrect!");
+		}
 	}
 
 	function getAnswer(){
 
 		if(examdatabase.questions[currentQ].answer.length>1){
 			
-			for (; i < examdatabase.questions[currentQ].answer.length; i++){
+			//for (; i < examdatabase.questions[currentQ].answer.length; i++){
 				document.getElementById("answer").innerHTML += "Answer " + (i+1) + ":<br>";
-				document.getElementById("answer").innerHTML += examdatabase.questions[currentQ].answer[i] + "<br> <br>";	
-			}
+				document.getElementById("answer").innerHTML += examdatabase.questions[currentQ].answer/*[i]*/ + "<br> <br>";	
+			//}
 		}
 	}
 
 	function correct(){
 		correctCount += 1;
+		nextQEligible = true;
+		document.getElementById("correctAndIncorrect").innerHTML = "Correct: " + correctCount + " Incorrect: " + incorrectCount; 
 	}
 
 	function incorrect(){
 		incorrectCount += 1;
+		nextQEligible = true;
+		document.getElementById("correctAndIncorrect").innerHTML = "Correct: " + correctCount + " Incorrect: " + incorrectCount; 
 	}
 
 </script>
@@ -59,6 +71,8 @@
 		<label id="answer"></label>
 		<button id="correct" onclick="correct()">Right</button>
 		<button id="incorrect" onclick="incorrect()">Wrong</button>
+		<hr>
+		<label id="correctAndIncorrect"></label>
 	</div>
 </body>
 </html>
