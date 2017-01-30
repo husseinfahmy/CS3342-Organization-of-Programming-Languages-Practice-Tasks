@@ -1,9 +1,11 @@
 ----- Beginning to process log file
 ----- First read known task list
+h001
 j001
 j002
 j100
 j200
+r001
 ----- Fetching list of already processed practice times
 -------- Already processed practice times 
 3d135b4099c71e8368f4e58133d558f4e10f2c40 j001 45
@@ -19,5 +21,5 @@ j200
 ----- Summary Report
 ----- Time Log Report
 ------- By Task
-total time on all tasks according to this log was 0
+total time on all tasks according to this log was 0.0
 the percentage of weekly required practice time spent so far is 0.0% (target is 100.0%)
