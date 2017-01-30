@@ -8,6 +8,8 @@
 
 	var currentQ = 0;
 	var i = 0;
+	var correctCount = 0;
+	var incorrectCount = 0;
 
 	function onLoad(){
 		document.getElementById("description").innerHTML = examdatabase.description;
@@ -23,11 +25,20 @@
 	function getAnswer(){
 
 		if(examdatabase.questions[currentQ].answer.length>1){
+			
 			for (; i < examdatabase.questions[currentQ].answer.length; i++){
 				document.getElementById("answer").innerHTML += "Answer " + (i+1) + ":<br>";
 				document.getElementById("answer").innerHTML += examdatabase.questions[currentQ].answer[i] + "<br> <br>";	
 			}
 		}
+	}
+
+	function correct(){
+		correctCount += 1;
+	}
+
+	function incorrect(){
+		incorrectCount += 1;
 	}
 
 </script>
@@ -46,6 +57,8 @@
 		<hr>
 		<h4>Answer</h4>
 		<label id="answer"></label>
+		<button id="correct" onclick="correct()">Right</button>
+		<button id="incorrect" onclick="incorrect()">Wrong</button>
 	</div>
 </body>
 </html>
