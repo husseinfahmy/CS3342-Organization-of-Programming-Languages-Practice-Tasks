@@ -8,6 +8,10 @@ j200
 r001
 ----- Fetching list of already processed practice times
 -------- Already processed practice times 
+6d93742fef10bb09d05abbe85f1e7c1facbe0e6e j002 15
+9cd519db99304c7891d4a4a8d84a5614ab47e4a4 j002 60
+92562e79e1d9b323424eab9229c38532da062d52 j002 50
+74220f8000e40d1d04d25eccf7bd9ee697061849 j002 60
 3d135b4099c71e8368f4e58133d558f4e10f2c40 j001 45
 06861bc5185e25538e2ae179f72ee57bb99cbb84 j001 45
 9f9f0daef2d449e6cb2f1c6aecdd8e71832e779e j001 40
@@ -25,7 +29,12 @@ r001
 ----- Summary Report
 ----- Time Log Report
 ------- By Task
-total time spent on task j002 was 185.0
-total time on all tasks according to this log was 185.0
-Note: time reported in excess of 180 minutes does not count toward practice
-the percentage of weekly required practice time spent so far is 100.0% (target is 100.0%)
+total time on all tasks according to this log was 0.0
+On unknown_date marking for previous week
+javascript practice time for previous week 0.0
+ruby practice time for previous week 0.0
+haskell practice time for previous week 0.0
+@@ hours of javascript to date = 360.0
+@@ hours of ruby to date = 0.0
+@@ hours of haskell to date = 0.0
+the percentage of weekly required practice time spent so far is 0.0% (target is 100.0%)
