@@ -34,10 +34,16 @@
 
 		if(examdatabase.questions[currentQ].answer.length>1){
 			
-			//for (; i < examdatabase.questions[currentQ].answer.length; i++){
-				document.getElementById("answer").innerHTML += "Answer " + (i+1) + ":<br>";
-				document.getElementById("answer").innerHTML += examdatabase.questions[currentQ].answer/*[i]*/ + "<br> <br>";	
-			//}
+			if(Array.isArray(examdatabase.questions[currentQ].answer)){
+				for (; i < examdatabase.questions[currentQ].answer.length; i++){
+					document.getElementById("answer").innerHTML += "Answer " + (i+1) + ":<br>";
+					document.getElementById("answer").innerHTML += examdatabase.questions[currentQ].answer[i] + "<br> <br>";	
+				}
+			}else{
+				document.getElementById("answer").innerHTML += "Answer: "  + "<br>";
+				document.getElementById("answer").innerHTML += examdatabase.questions[currentQ].answer + "<br> <br>";	
+			}
+
 		}
 	}
 
