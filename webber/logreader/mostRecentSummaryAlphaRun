@@ -17,6 +17,8 @@ r001
 9f9f0daef2d449e6cb2f1c6aecdd8e71832e779e j001 40
 798da9a6fce904e7a9f9f2bc6d5cab123130baef j001 60
 ----- Fetching current practice times
+WARNING: skipping this log entry because unknown task 35
+8f949dba76148894f4742aa28abb076781d004d7 time 35 r001 in-progress
 -------- Current practice times 
 23353d74b56502ac4c1228bd8680be941e912b08 j002 25
 6d93742fef10bb09d05abbe85f1e7c1facbe0e6e j002 15
