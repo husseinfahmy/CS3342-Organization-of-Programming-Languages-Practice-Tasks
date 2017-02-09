@@ -1,0 +1,389 @@
+[33mcommit 5f9435a99455a92e399e719975f8afd4bf3256b4[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Mon Feb 6 01:15:56 2017 -0500
+
+    time r001 45 in-progress
+
+[33mcommit 24a940e21fc24f56e9213602270000b54b3757bd[m
+Merge: 0829721 8eaaffb
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Mon Feb 6 00:05:57 2017 -0500
+
+    Merge branch 'master' of https://repo.gaul.csd.uwo.ca/scm/cs3342_w2017/hfahmy3
+
+[33mcommit 0829721dfa4af6b5c67a2531b6e4ba67f67d0ffc[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Mon Feb 6 00:05:39 2017 -0500
+
+    time r001 60 in-progress
+
+[33mcommit 8eaaffb935aed4d40c173e688c4f8e01967279db[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Feb 5 22:14:14 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 7c5ef2db69fe6d971a6907c8fc3f8672b148e01d[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sun Feb 5 21:17:52 2017 -0500
+
+    time r001 45 in-progress
+
+[33mcommit 753424ddbd520aad8e359aaf47281eb071a45347[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sun Feb 5 21:15:33 2017 -0500
+
+    time r001 35 in-progress
+
+[33mcommit 7203b0bd9f09238238a4064de7292a5ac4897328[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Feb 5 16:47:12 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit a03980d52edeff8376d70668b5c050706a9a9840[m
+Merge: 8f949db e02a144
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sun Feb 5 10:58:03 2017 -0500
+
+    Merge branch 'master' of https://repo.gaul.csd.uwo.ca/scm/cs3342_w2017/hfahmy3
+
+[33mcommit 8f949dba76148894f4742aa28abb076781d004d7[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sun Feb 5 10:57:42 2017 -0500
+
+    time 35 r001 in-progress
+
+[33mcommit e02a14437ba9ca52b601272969944e2ee391e052[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Feb 4 18:15:06 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 23f6cb532f7640dd5175032fc0307ec408424464[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Thu Feb 2 18:58:32 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 23353d74b56502ac4c1228bd8680be941e912b08[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Thu Feb 2 00:19:58 2017 -0500
+
+    time j002 25 finished
+
+[33mcommit bfbbcc4836e951afdaac646212388ba6c6afddde[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Feb 1 14:13:53 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit cd45bbfcbfec4f6a2f9168b257e4cbd202a40080[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Jan 31 18:28:58 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit c8270ec6539a5221fd369bfd4a4aee4502f9fe46[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 30 19:14:49 2017 -0500
+
+    marking for past week completed, see webber/evaluations/markssofar for result
+
+[33mcommit afcec763ef40f9b394f2ef10b023b12686a54feb[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 30 16:34:55 2017 -0500
+
+    marking for past week completed, see webber/evaluations/markssofar for result
+
+[33mcommit 7ab8a47d98919d345a90d13b9e8cb5ecd56df3e4[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 30 15:21:48 2017 -0500
+
+    marking for past week completed, see webber/evaluations/markssofar for result
+
+[33mcommit 6d93742fef10bb09d05abbe85f1e7c1facbe0e6e[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Mon Jan 30 01:23:21 2017 -0500
+
+    time j002 15 in-progress
+
+[33mcommit 9cd519db99304c7891d4a4a8d84a5614ab47e4a4[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Mon Jan 30 01:05:02 2017 -0500
+
+    time j002 60 in-progress
+
+[33mcommit b84a33e9c48e3a3ee9b772f720dadb7522df16eb[m
+Merge: 92562e7 e9bd6ab
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Mon Jan 30 01:03:40 2017 -0500
+
+    Merge branch 'master' of https://repo.gaul.csd.uwo.ca/scm/cs3342_w2017/hfahmy3
+
+[33mcommit e9bd6ab2425e6104932617e66c3f2ce4a9a4a488[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Jan 29 18:27:07 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 5ad479bf350a9d5178a0bb9a0df40b73842a8d03[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Jan 29 15:29:44 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit f1b8b16bcce5fb54eb885008741e497b99019fb0[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 28 16:25:52 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 86eac0243e3b258b27c1832ac1cb6ffd50c3b407[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Thu Jan 26 18:11:59 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 92562e79e1d9b323424eab9229c38532da062d52[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Thu Jan 26 11:12:04 2017 -0500
+
+    time j002 50 in-progress
+
+[33mcommit 74220f8000e40d1d04d25eccf7bd9ee697061849[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Wed Jan 25 20:03:42 2017 -0500
+
+    time j002 60 in-progress
+
+[33mcommit 292bf768975cf56c7df83b48831a814186face54[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 25 17:38:46 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 424d0d48dca5a8f663df0f50b0b69be99365243b[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Jan 24 15:55:39 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 9fa5d556f511ea77662c509c6071ea1c44fab1e2[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 23 23:14:12 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 1dc56f24756dd8fbd8698bc3f7b126458d6aaf3a[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 23 17:26:22 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 38b947b617f0a107b55f34c15a088bb2e0c07e2a[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 23 14:11:24 2017 -0500
+
+    marking for past week completed, see webber/evaluations/markssofar for result
+
+[33mcommit c7fd28afb47e27427e3c817fe73cdfa030433ac1[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Jan 22 21:19:35 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 3d135b4099c71e8368f4e58133d558f4e10f2c40[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sun Jan 22 20:23:33 2017 -0500
+
+    time j001 45 finished
+
+[33mcommit 4cb7d05688c911afa028a4a55624818327731611[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Jan 22 16:53:36 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 06861bc5185e25538e2ae179f72ee57bb99cbb84[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sun Jan 22 16:41:35 2017 -0500
+
+    time j001 45 in-progress
+
+[33mcommit 3485aaff5168daabf9d43931d1b65ecf78746176[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Jan 22 15:18:09 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 86eadb3e49060a69709375f4b2c93464de49efbb[m
+Merge: 9f9f0da 5130e7c
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sun Jan 22 00:44:26 2017 -0500
+
+    Merge branch 'master' of https://repo.gaul.csd.uwo.ca/scm/cs3342_w2017/hfahmy3
+
+[33mcommit 9f9f0daef2d449e6cb2f1c6aecdd8e71832e779e[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sun Jan 22 00:44:06 2017 -0500
+
+    time j001 40 in-progress
+
+[33mcommit 5130e7cfc35b08b370f7398b945b0e140399d25e[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 19:37:56 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 32dd3375087e16516dffd44fa9de212bdefd5d1a[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sat Jan 21 18:32:33 2017 -0500
+
+    stage4 with 2 buttoins
+
+[33mcommit 734c4494ff521fbf95ba7087e3b3e1b8e052dd47[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 17:58:12 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 7edcdf25608f33bf7ffcb588aea81ff717aaadc5[m
+Merge: 798da9a abc314f
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sat Jan 21 17:46:46 2017 -0500
+
+    Merge branch 'master' of https://repo.gaul.csd.uwo.ca/scm/cs3342_w2017/hfahmy3
+
+[33mcommit 798da9a6fce904e7a9f9f2bc6d5cab123130baef[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sat Jan 21 17:44:10 2017 -0500
+
+    time j001 60 in-progress
+
+[33mcommit 2db467f42619225eb5cc1685e89c527e15ba55d8[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Sat Jan 21 16:36:41 2017 -0500
+
+    finished stage 1
+
+[33mcommit abc314fbf21ede3e5e0d8f9cb03b7474aa307df7[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 16:00:29 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit bb8e08dada8d946c682b17d942ff64243f3b5844[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 15:54:05 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 40cd4b2fb6d0b072edaf55a309415faf8ad60450[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 15:19:11 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit dfe40bdb12e33dae70ed0ae4c8e4c3363b27c881[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 15:01:01 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 0789c1442443b88b29a954599755f154c7db9658[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Fri Jan 20 19:06:54 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 6f1bac1963e41de803c2297b08b8d169d0f8672d[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Fri Jan 20 14:29:14 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit ae7111a0464d7d95ecf3cb1589b892c8e05d936e[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Thu Jan 19 16:12:26 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 4264eb8fe4d772fb36f10cb8fd1cf07c5f41a74b[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Thu Jan 19 15:10:27 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit f7abbc6a3aef5e29adcec69255dd16785ede98e5[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 22:58:45 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 9e8e93fac5e013ae7b225e2bd1b90f46f61c4318[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 18:02:41 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 02d962555a62e6921beded6e5de16a59a242f1b6[m
+Merge: 3e2c9df 9820a2b
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Wed Jan 18 15:37:33 2017 -0500
+
+    Merge branch 'master' of https://repo.gaul.csd.uwo.ca/scm/cs3342_w2017/hfahmy3
+
+[33mcommit 3e2c9dfbf8ce630e68d89f4228dda260a72159f2[m
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Wed Jan 18 15:37:13 2017 -0500
+
+    making sure set up correctly
+
+[33mcommit 9820a2b11550b6af2a57e85f91675a5d7d757edd[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 12:54:32 2017 -0500
+
+    updating practice framework and running summary.rb
+
+[33mcommit 5122ceca9a5bd1cffaa40751e91a2148c0982b84[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Jan 17 21:11:16 2017 -0500
+
+    updating practice framework
+
+[33mcommit 4d7b96c84dae1d623ceae07ececbc0f8d57ffd96[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 16 17:53:54 2017 -0500
+
+    updating practice framework
+
+[33mcommit 5934d7afec8f20f2e0604f1e89e6695333578fc7[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 14 19:49:27 2017 -0500
+
+    updating practice framework
+
+[33mcommit 78efd33f388604a6a18df76d3040f06539a7fc66[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 14 19:13:15 2017 -0500
+
+    updating practice framework
+
+[33mcommit 168527adead18b30015cc82dc8fcdd267d08010b[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Fri Jan 13 16:24:13 2017 -0500
+
+    updating practice framework
+
+[33mcommit e636ab988c18950be4c09dc8934e9af2c6eb3b69[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 11 22:49:51 2017 -0500
+
+    updating practice framework
+
+[33mcommit 0b4c8a0e57fa260548a59b209ba14a4c9ffab36e[m
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Jan 10 18:36:46 2017 -0500
+
+    updating practice framework
