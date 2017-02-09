@@ -1,3 +1,15 @@
+commit ffa1cff30ad3a4c72fe00fce72993987c239bbb5
+Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
+Date:   Thu Feb 9 11:20:10 2017 -0500
+
+    time r001 60 in-progress
+
+commit 872e189629ca922dd1b2273836560110c31e0842
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Feb 7 15:57:10 2017 -0500
+
+    updating practice framework and running summary.rb
+
 commit 9246fc255bdb728232853e9d73a52639e0c23d1e
 Author: Bob Webber <webber@csd.uwo.ca>
 Date:   Mon Feb 6 18:55:49 2017 -0500

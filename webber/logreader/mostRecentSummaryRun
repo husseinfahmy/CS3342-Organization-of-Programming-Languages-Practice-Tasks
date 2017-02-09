@@ -30,6 +30,7 @@ WARNING: skipping this log entry because unknown task 35
 WARNING: skipping this log entry because unknown task 35
 8f949dba76148894f4742aa28abb076781d004d7 time 35 r001 in-progress
 -------- Current practice times 
+ffa1cff30ad3a4c72fe00fce72993987c239bbb5 r001 60
 5f9435a99455a92e399e719975f8afd4bf3256b4 r001 45
 0829721dfa4af6b5c67a2531b6e4ba67f67d0ffc r001 60
 7c5ef2db69fe6d971a6907c8fc3f8672b148e01d r001 45
@@ -46,12 +47,13 @@ WARNING: skipping this log entry because unknown task 35
 ----- Summary Report
 ----- Time Log Report
 ------- By Task
-total time on all tasks according to this log was 0.0
+total time spent on task r001 was 60.0
+total time on all tasks according to this log was 60.0
 On unknown_date marking for previous week
 javascript practice time for previous week 0.0
-ruby practice time for previous week 0.0
+ruby practice time for previous week 60.0
 haskell practice time for previous week 0.0
 @@ hours of javascript to date = 381.429
-@@ hours of ruby to date = 158.571
+@@ hours of ruby to date = 218.571
 @@ hours of haskell to date = 0.0
-the percentage of weekly required practice time spent so far is 0.0% (target is 100.0%)
+the percentage of weekly required practice time spent so far is 33.333% (target is 100.0%)
