@@ -3,8 +3,18 @@ log = ARGF.readlines
 timeCommits = []
 i = 0
 
+
+
+puts "-------------------------------------------------------------------------------------"
+
+
 log.each_with_index do |thing,index|
-    next unless (log[index].start_with? 'Author: Hussein Fahmy')&&(log[index-1].start_with? 'Commit')
+
+    #print "element: ", index, thing
+
+
+
+    next unless (log[index].start_with? 'Author: Hussein Fahmy')&&(log[index+3].start_with? '    time')
     	timeCommits[i] = log[index-1]
     	i += 1
     	timeCommits[i] = log[index]
@@ -18,18 +28,25 @@ end
 
 #print log
 
-log.each_with_index do |thing,index|
-	if thing != nil
-		print "Element: ", index
-		print timeCommits[index]
-		puts "\n"
+timeCommits = timeCommits.reverse
 
-	end
+timeCommits.each_with_index do |thing,index|
+	puts timeCommits[index]
 	
 
+    if((index)%4 == 0)
+        puts timeCommits[index]
+        puts "\n\n\n\n"
 
-	#if(index%4 == 0)
-	#	puts "\n"
+        #words = timeCommits[index].split
+        #words.each_with_index do |word, index|
+        #    print word
+        #end
+    end
+
+
+	#if((index+1)%4 == 0)
+	#	puts "\n\n\n\n\n"
 	#end
 end
 #log.gsub! 'commit', '\ncommit'
