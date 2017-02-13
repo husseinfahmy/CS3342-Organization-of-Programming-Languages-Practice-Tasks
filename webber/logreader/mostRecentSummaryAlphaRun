@@ -45,16 +45,22 @@ ffa1cff30ad3a4c72fe00fce72993987c239bbb5 r001 60
 9f9f0daef2d449e6cb2f1c6aecdd8e71832e779e j001 40
 798da9a6fce904e7a9f9f2bc6d5cab123130baef j001 60
 ----- Summary Report
+@+@ javascript time for week found before rules applied 0.0
+@+@ ruby time for week found before rules applied 60.0
+@+@ haskell time for week found before rules applied 0.0
 ----- Time Log Report
 ------- By Task
 total time spent on task r001 was 60.0
 total time on all tasks according to this log was 60.0
 On unknown_date marking for previous week
+@+@ time from prior weeks on javascript 381.429
+@+@ time from prior weeks on ruby 158.571
+@+@ time from prior weeks on haskell 0.0
 javascript practice time for previous week 0.0
 ruby practice time for previous week 60.0
 haskell practice time for previous week 0.0
 discretionary practice time for previous week 0.0
-note: in each of following categories, can not exceed 450 minutes
+note: in each of following categories, can not exceed 450.0 minutes
 @@ minutes of javascript to date = 381.429
 @@ minutes of ruby to date = 218.571
 @@ minutes of haskell to date = 0.0
