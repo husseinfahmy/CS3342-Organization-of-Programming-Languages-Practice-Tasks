@@ -1,3 +1,9 @@
+commit 7539a19317013afd7b49d9eb54c0d55d5759d604
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Feb 13 17:14:14 2017 -0500
+
+    updating practice framework and running summary.rb
+
 commit 0310d84ab3114b567111417a75282c5f2e711ef2
 Merge: 67b9e13 28d9518
 Author: Hussein Fahmy <fahmy.hussein@hotmail.com>
