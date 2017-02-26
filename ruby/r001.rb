@@ -3,15 +3,10 @@ log = ARGF.readlines
 timeCommits = []
 i = 0
 
-
-
-
+value = %x(git log)
+puts value
 
 log.each_with_index do |thing,index|
-
-    #print "element: ", index, thing
-
-
 
     next unless (log[index].start_with? 'Author: Hussein Fahmy')&&(log[index+3].start_with? '    time')
         timeCommits[i] = log[index-1]
