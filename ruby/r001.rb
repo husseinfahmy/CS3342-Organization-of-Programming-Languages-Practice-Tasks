@@ -1,10 +1,10 @@
 #gives us array for commit data
-log = ARGF.readlines
+#log = ARGF.readlines
 timeCommits = []
 i = 0
 
 value = %x(git log)
-puts value
+puts value.kind_of?(Array)
 
 log.each_with_index do |thing,index|
 
