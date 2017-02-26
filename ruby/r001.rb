@@ -1,9 +1,46 @@
 #gives us array for commit data
 #log = ARGF.readlines
+
+def print_task_commits(array, language)
+
+    if language == "j"
+        puts "------------------------------------------"
+        puts "\t\tJAVASCRIPT"
+        puts "------------------------------------------"
+
+    elsif language == "r"
+        puts "------------------------------------------"
+        puts "\t\tRUBY"
+        puts "------------------------------------------"
+    elsif language == "h"
+        puts "------------------------------------------"
+        puts "\t\tHASKELL"
+        puts "------------------------------------------"
+    end
+
+    array.each_with_index do |thing,index|
+           
+        if((index)%4 == 0)#fourth element is the commit message
+            
+            #tokenize the commit message
+            words = array[index].split
+            
+            if words[1].start_with? 'j'#if javascript task
+                #code
+                print array[index+1], "\t"
+                print array[index], "\n"
+            end
+        end
+    end
+
+end
+
+
+
 timeCommits = []
 i = 0
 
-puts 
+
 logString = %x(git log)
 log = logString.split("\n")
 
@@ -24,77 +61,24 @@ log.each_with_index do |thing,index|
 
 
 timeCommits = timeCommits.reverse
+#puts timeCommits[0] =========> Message
+#puts timeCommits[1] =========> Date
+#puts timeCommits[2] =========> Author
+#puts timeCommits[3] =========> Commit code
 
 
 if ARGV.size == 1
-    puts "1 ARGUMENT"
+    if ARGV[0] != 'j' and ARGV[0] != 'r' and ARGV[0] != 'h' #if argument is not j,r, or n
+        puts "Invalid Argument. Argument must be 'j', 'r', or 'h'."
+    else    #else print the tasks for that language
+        #call printing function
+        print_task_commits(timeCommits, ARGV[0])
+    end
 elsif ARGV.size ==0 
-    ######################################
-    ############ ALL JS TASKS ############
-    ######################################
+    print_task_commits(timeCommits, 'j')
+    print_task_commits(timeCommits, 'r')
+    print_task_commits(timeCommits, 'h')
 
-    puts "------------------------------------------"
-    puts "\t\tJAVASCRIPT"
-    puts "------------------------------------------"
-
-    timeCommits.each_with_index do |thing,index|
-       
-        if((index)%4 == 0)#fourth element is the commit message
-            
-            #tokenize the commit message
-            words = timeCommits[index].split
-            
-            if words[1].start_with? 'j'#if javascript task
-                #code
-                print timeCommits[index], "\n"
-            end
-        end
-    end
-
-
-    ######################################
-    ########### ALL RUBY TASKS ###########
-    ######################################
-
-    puts "------------------------------------------"
-    puts "\t\tRUBY"
-    puts "------------------------------------------"
-
-    timeCommits.each_with_index do |thing,index|
-       
-        if((index)%4 == 0)#fourth element is the commit message
-            
-            #tokenize the commit message
-            words = timeCommits[index].split
-            
-            if words[1].start_with? 'r'#if Ruby task
-                #code
-                print timeCommits[index], "\n"
-            end
-        end
-    end
-
-    ######################################
-    ########## ALL HASKELL TASKS #########
-    ######################################
-
-    puts "------------------------------------------"
-    puts "\t\tHASKELL"
-    puts "------------------------------------------"
-
-    timeCommits.each_with_index do |thing,index|
-       
-        if((index)%4 == 0)#fourth element is the commit message
-            
-            #tokenize the commit message
-            words = timeCommits[index].split
-            
-            if words[1].start_with? 'h'#if haskell task
-                #code
-                print timeCommits[index], "\n"
-            end
-        end
-    end
 else
     puts "Only 1 argument is allowed!"
 end
