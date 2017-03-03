@@ -1,4 +1,4 @@
 import System.Process
 main = do
-	log = readProcess "ls" ["-a"] ""
+	let log = readProcess "git" ["log"] []
 	putStrLn log
