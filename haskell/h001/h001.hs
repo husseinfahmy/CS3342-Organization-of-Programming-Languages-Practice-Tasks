@@ -12,3 +12,4 @@ main = do
 --	splitOn:: log '\n' log
 	logList <- show (split "HI \n hey" '\n')
 	print logList
+	
