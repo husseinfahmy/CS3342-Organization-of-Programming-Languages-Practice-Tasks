@@ -100,7 +100,7 @@
 	function showReport(){
 		document.getElementById("reportDiv").innerHTML = "";
 		for (var i = 0; i < historyQuestions.length; i++) {
-			document.getElementById("reportDiv").innerHTML += historyQuestions[i] + "<br> <br>" + historyAnswers[i] + "<br> <br>" + historyResults[i] + "<br> <br>   ----------------------------------------------------------  <br> <br>"
+			document.getElementById("reportDiv").innerHTML += historyQuestions[i] + "<br> <br>" + historyAnswers[i] + "<br> <br>" + historyResults[i] + "<br> <br>   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  <br> <br>"
 		}
 	}
 
