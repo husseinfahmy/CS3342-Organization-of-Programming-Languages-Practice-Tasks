@@ -6,8 +6,8 @@ function onYouTubeIframeAPIReady() {
         height: 400,
         videoId: 'LaSRU5m_7og',
         playerVars: {
-            color: 'white',
-            playlist: 'pbMO7uwu-ok'
+            color: 'black',
+            playlist: 'pbMO7uwu-ok, OElxUkigPUE, hgx7L9Nyfjw'
         },
         events: {
             onReady: initialize
