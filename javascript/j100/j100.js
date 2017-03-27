@@ -92,5 +92,3 @@ $('#mute-toggle').on('click', function() {
 $('#volume-input').on('change', function () {
     player.setVolume($(this).val());
 });
-
-
