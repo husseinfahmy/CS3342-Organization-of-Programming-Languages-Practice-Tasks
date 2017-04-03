@@ -89,6 +89,10 @@ WARNING: skipping this log entry because unknown task 35
 WARNING: skipping this log entry because unknown task 35
 8f949dba76148894f4742aa28abb076781d004d7 time 35 r001 in-progress
 -------- Current practice times 
+c93b902e4d5da6c484ffd7b772b5978fac94112b j100 60
+04331dd32d4568b125c9efa87926a374c6a9a6d3 j100 60
+6eb5257d15924132368f0b8efecd776809bfd103 j100 60
+7e1ecbd3edfef4744e382d3843a120bbda2d6b97 j100 60
 104cb8b5b8f04382206c8cf7e0e95fa77d0a3a24 j100 60
 0b045bdf82039dba4c06b8adade06988ac7a2ca0 r001 35
 b7a49c39d5aff3c38ba8cde6a1db8a85a9c6ef51 j100 60
@@ -123,12 +127,14 @@ ffa1cff30ad3a4c72fe00fce72993987c239bbb5 r001 60
 9f9f0daef2d449e6cb2f1c6aecdd8e71832e779e j001 40
 798da9a6fce904e7a9f9f2bc6d5cab123130baef j001 60
 ----- Summary Report
-@+@ javascript time for week found before rules applied 0.0
+@+@ javascript time for week found before rules applied 240.0
 @+@ ruby time for week found before rules applied 0.0
 @+@ haskell time for week found before rules applied 0.0
 ----- Time Log Report
 ------- By Task
-total time on all tasks according to this log was 0.0
+total time spent on task j100 was 240.0
+total time on all tasks according to this log was 240.0
+Note: time reported in excess of 180 minutes does not count toward practice
 On unknown_date marking for previous week
 @+@ time from prior weeks on javascript 450.0
 @+@ time from prior weeks on ruby 450.0
@@ -137,10 +143,10 @@ On unknown_date marking for previous week
 javascript practice time for previous week 0.0
 ruby practice time for previous week 0.0
 haskell practice time for previous week 0.0
-discretionary practice time for previous week 0.0
+discretionary practice time for previous week 180.0
 note: in each of following categories, can not exceed 450.0 minutes
 @@ minutes of javascript to date = 450.0
 @@ minutes of ruby to date = 450.0
 @@ minutes of haskell to date = 450.0
-@@ minutes of discretionary practice to date = 270.0
-the percentage of weekly required practice time spent so far is 0.0% (target is 100.0%)
+@@ minutes of discretionary practice to date = 450.0
+the percentage of weekly required practice time spent so far is 100.0% (target is 100.0%)
