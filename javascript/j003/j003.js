@@ -1,4 +1,3 @@
-
 	var currentQ = 0;
 	var i = 0;
 	var correctCount = 0;
@@ -10,7 +9,7 @@
 	var historyResults = [];
 
 	function onLoad(){
-		document.getElementById("description").innerHTML = examdatabase.description;
+		//document.getElementById("description").innerHTML = examdatabase.description;
 
 		document.getElementById("correctAndIncorrect").innerHTML = "Correct: " + correctCount + " Incorrect: " + incorrectCount; 
 	}
