@@ -47,7 +47,7 @@ var examdatabase = {
         "question": "In discussing object oriented languages, being able to handle objects of related types is called ANSWER",
         "answer": "polymorphism",
         "note": "polymorphism has a different usage in the object oriented programming community than in the functional programming community",
-        "source": "SLSW2"
+        "source": "SLSW# or ICD# where # is chapter number"
      },
      {
         "question": "The application that caused a significant increase in the popularity of Ruby was a web framework called ANSWER",
@@ -119,7 +119,7 @@ var examdatabase = {
         "question": "With respect to the value returned by the Ruby expression :hi.object_id == :hi.object_id, you can say it ANSWER",
         "answer": "will always be true",
         "note": "optional note",
-        "source": "SLSW2"
+        "source": "SLSW# or ICD# where # is chapter number"
      },
      {
         "question": "To execute a code block in Ruby that is passed to a method but doesn't appear on its parameter list, you use the keyword ANSWER",
