@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hussein Fahmy J003</title>
+</head>
+<script src="./examdatabase.js"></script>
+<script type="text/javascript" src="./j003.js"></script>
+<style type="text/css">
+	
+	#reportDiv{
+		width: 100%;
+	    height: 275px;
+	    overflow-y: scroll;
+	    overflow-x: hidden;
+	}
+
+</style>
+
+<body onload="onLoad()">
+	<div>
+		<h1 id="name">
+			HUSSEIN FAHMY J003
+			<hr>			
+		</h1>
+		<h4 id="description"></h4>
+
+		<button id="questionButton" onclick="newQuestion()">Question</button>
+		<button id="answerButton" onclick="getAnswer()">Answer</button>
+		<hr>
+		<label id="question"></label>
+		<hr>
+		<h4>Answer</h4>
+		<label id="answer"></label>
+		<button id="correct" onclick="correct()">Right</button>
+		<button id="incorrect" onclick="incorrect()">Wrong</button>
+		<button id="undoButton" onclick="undo()">Undo Mark</button>
+		<button id="showReportButton" onclick="showReport()">Show Report</button>
+		<button id="clearReportButton" onclick="clearReport()">Clear Report</button>
+		<hr>
+		<label id="correctAndIncorrect"></label>
+		<br>
+		<br>
+		<div id="reportDiv"></div>
+	</div>
+</body>
+</html>
