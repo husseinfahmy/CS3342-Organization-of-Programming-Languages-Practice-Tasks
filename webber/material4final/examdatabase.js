@@ -1,4 +1,5 @@
-var examdatabase = {
+var examdatabase =
+{
      "questiontemplate": {
         "question": "What is the answer?",
         "lquestion": "latex reformatting for questions that needed it, absent if not needed",

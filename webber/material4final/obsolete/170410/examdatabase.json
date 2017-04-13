@@ -1,9 +1,7 @@
-var examdatabase = {
+{
      "questiontemplate": {
         "question": "What is the answer?",
-        "lquestion": "latex reformatting for questions that needed it, absent if not needed",
         "answer": "That which was asked for",
-        "lanswer": "latex reformatting for answers that needed it, absent if not needed",
         "note": "optional note",
         "source": "SLSW# or ICD# where # is chapter number"
      },
@@ -101,7 +99,6 @@ var examdatabase = {
      },
      {
         "question": "The & notation in the line of Ruby def george(&sam) is used to indicate that sam is ANSWER.",
-        "lquestion": "The \\& notation in the line of Ruby def george(\\&sam) is used to indicate that sam is ANSWER.",
         "answer": "a code block",
         "note": "optional note",
         "source": "SLSW2"
@@ -114,14 +111,12 @@ var examdatabase = {
      },
      {
         "question": "With respect to the value returned by the Ruby expression 'hi'.object_id == 'hi'.object_id, you can say it ANSWER.",
-        "lquestion": "With respect to the value returned by the Ruby expression 'hi'.object\\_id == 'hi'.object\\_id, you can say it ANSWER.",
         "answer": "could be either true or false",
         "note": "optional note",
         "source": "SLSW2"
      },
      {
         "question": "With respect to the value returned by the Ruby expression :hi.object_id == :hi.object_id, you can say it ANSWER.",
-        "lquestion": "With respect to the value returned by the Ruby expression :hi.object\\_id == :hi.object\\_id, you can say it ANSWER.",
         "answer": "will always be true",
         "note": "optional note",
         "source": "SLSW2"
@@ -201,7 +196,6 @@ var examdatabase = {
      {
         "question": "When you send a message to a Ruby object, Ruby first looks at the methods that object supports, and then starts working the inheritance chain.  If it still can't find the appropriate method, the message and its parameters get passed as a message to the object looking for a method called ANSWER.",
         "answer": "method_missing",
-        "lanswer": "method\\_missing",
         "note": "optional note",
         "source": "SLSW2"
      },
@@ -232,7 +226,6 @@ var examdatabase = {
      {
         "question": "The type of a string constant in Haskell, by default, is written ANSWER.",
         "answer": "[Char]",
-        "lanswer": "$\\lbrack$Char$\\rbrack$",
         "note": "optional note",
         "source": "SLSW8"
      },
@@ -245,7 +238,6 @@ var examdatabase = {
      {
         "question": "In Haskell, if I define a function double = x + x, its type signature would be ANSWER.",
         "answer": "(Num a) => a -> a",
-        "lanswer": "$(Num \\quad a) \\Rightarrow a \\rightarrow a$",
         "note": "optional note",
         "source": "SLSW8"
      },
@@ -257,7 +249,6 @@ var examdatabase = {
      },
      {
         "question": "In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with | x > 1 = x * factorial ( x - a).  This second style is called ANSWER.",
-        "lquestion": "In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with $|$ x $>$ 1 = x * factorial ( x - a).  This second style is called ANSWER.",
         "answer": "using guards",
         "note": "optional note",
         "source": "SLSW8"
@@ -270,55 +261,43 @@ var examdatabase = {
      },
      {
         "question": "In Haskell, if I write (h:t) = [3, 5, 7], ANSWER is the value of h.",
-        "lquestion": "In Haskell, if I write (h:t) = $\\lbrack$3, 5, 7$\\rbrack$, ANSWER is the value of h.",
         "answer": "3",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
         "question": "In Haskell, if I write (h:t) = [3, 5, 7], ANSWER is the value of t.",
-        "lquestion": "In Haskell, if I write (h:t) = $\\lbrack$3, 5, 7$\\rbrack$, ANSWER is the value of t.",
         "answer": "[5, 7]",
-        "lanswer": "$\\lbrack$5, 7$\\rbrack$",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
         "question": "In Haskell, ANSWER is the output of zip [17..20] [10,8..4].",
-        "lquestion": "In Haskell, ANSWER is the output of zip $\\lbrack$17..20$\\rbrack$ $\\lbrack$10,8..4$\\rbrack$.",
         "answer": "[(17,10),(18,8),(19,6),(20,4)]",
-        "lanswer": "$\\lbrack$(17,10),(18,8),(19,6),(20,4)$\\rbrack$",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
         "question": "In Haskell, ANSWER is the output of zip [20..17] [10,8..4].",
-        "lquestion": "In Haskell, ANSWER is the output of zip $\\lbrack$20..17\\rbrack$ $\\lbrack$10,8..4\\rbrack$.",
         "answer": "[]",
-        "lanswer": "$\\lbrack\\rbrack$",
         "note": "default increment is 1 and zip only goes as far as shortest argument list.",
         "source": "SLSW8"
      },
      {
         "question": "In Haskell, defining lists using a notation like [x * 2 | x <- [3, 4, 5]] is called using ANSWER.",
-        "lquestion": "In Haskell, defining lists using a notation like $\\lbrack x * 2 | x \\leftarrow \\lbrack 3, 4, 5\\rbrack \\rbrack$ is called using ANSWER.",
         "answer": "list comprehensions",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, [x * 2 | x <- [3, 4, 5]] evaluates to ANSWER.",
-        "lquestion": "In Haskell, $\\lbrack x * 2 | x \\leftarrow \\lbrack 3, 4, 5\\rbrack \\rbrack$  evaluates to ANSWER.",
+        "question": "In Haskell, [x * 2 | x <- [3, 4, 5]]  evaluates to ANSWER.",
         "answer": "[6, 8, 10]",
-        "lanswer": "$\\lbrack 6, 8, 10\\rbrack$",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
         "question": "In Haskell, how would you write an anonymous function so that the expression `map ANSWER [1, 2, 3]' produces [-4, -5, -6].",
-        "lquestion": "In Haskell, how would you write an anonymous function so that the expression `map ANSWER $\\lbrack 1, 2, 3\\rbrack$' produces $\\lbrack -4, -5, -6\\rbrack$.",
         "answer": "(\\x -> - (x + 3))",
-        "lanswer": "$(\\ x \\rightarrow - (x + 3))$",
         "note": "note above should contain just a single backslash, which in Haskell we would read as lambda",
         "source": "SLSW8"
      },
@@ -331,14 +310,12 @@ var examdatabase = {
      {
         "question": "In Haskell, the type signature of the function sum x y = x + y is ANSWER.",
         "answer": "(Num a) => a -> a -> a",
-        "lanswer": "$(Num \\quad a) => a \\rightarrow a \\rightarrow a$",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
         "question": "In Haskell, given the definition sum x y = x + y, ANSWER is the value of that is produced by the expression (sum 3).",
-        "answer": "(\\ x -> 3 + x)",
-        "lanswer": "$(\\ x \\rightarrow 3 + x)$",
+        "answer": "(\\x -> 3 + x)",
         "note": "again, that should be just one back slash in the answer, the actual parameter name doesn't matter to the answer as long as it is used consistently",
         "source": "SLSW8"
      },
@@ -376,14 +353,12 @@ var examdatabase = {
      {
         "question": "One of the three most significant parts of a Haskell monad is called ANSWER, which unwraps a function.",
         "answer": [">>=", "a bind function"],
-        "lanswer": ["$>>=$", "a bind function"],
         "note": "optional note",
         "source": "SLSW8"
      },
      {
         "question": "In Haskell's do notation for working with monads, assignment uses the ANSWER operator.",
         "answer": "<-",
-        "lanswer": "$\\leftarrow$",
         "note": "optional note",
         "source": "SLSW8"
      },
@@ -412,7 +387,7 @@ var examdatabase = {
         "source": "ICD1"
      },
      {
-        "question": "The specifications of how to group characters into meaningful basic units of a programming language are generally implemented in code that has the abstract form of ANSWER.",
+        "question": "The specifications of how to group characters into meaningful basic units of a programming language are generlly implemented in code that has the abstract form of ANSWER.",
         "answer": ["a finite automata", "a finite state machine"],
         "note": "optional note",
         "source": "ICD1"
@@ -528,33 +503,25 @@ var examdatabase = {
      },
      {
         "question": "Using the context-free grammar based on the two rules A -> b A and A -> b, ANSWER would be the derivation sequence for bbb.",
-        "lquestion": "Using the context-free grammar based on the two rules $A \\rightarrow b A$ and $A \\rightarrow b$, ANSWER would be the derivation sequence for bbb.",
         "answer": "A => Ab => Abb => bbb",
-        "lanswer": "$A \\Rightarrow Ab \\Rightarrow Abb \\Rightarrow bbb$",
         "note": "optional note",
         "source": "ICD2"
      },
      {
         "question": "ANSWER is the regular expression that corresponds to the language defined by the context-free grammar with the three rules A -> A a, A -> A b, A -> a.",
-        "lquestion": "ANSWER is the regular expression that corresponds to the language defined by the context-free grammar with the three rules $A \\rightarrow A a$, $A \\rightarrow A b$, $A \\rightarrow a$.",
         "answer": "a (a|b)*",
-        "lanswer": "$a (a|b)*$",
         "note": "optional note",
         "source": "ICD2"
      },
      {
         "question": "ANSWER would be the derivation of ((1)) in the language defined by the context-free grammar consisting of the two rules E -> ( E ) and E -> 1.",
-        "lquestion": "ANSWER would be the derivation of ((1)) in the language defined by the context-free grammar consisting of the two rules $E \\rightarrow ( E )$ and $E \\rightarrow 1$.",
         "answer": "E => (E) => ((E)) => ((1))",
-        "lanswer": "$E \\Rightarrow (E) \\Rightarrow ((E)) \\Rightarrow ((1))$",
         "note": "optional note",
         "source": "ICD2"
      },
      {
         "question": "ANSWER are two derivations of the string cc that produce distinct syntax trees from the context-free grammar X -> X c Y , Y -> X ,  Y -> and X -> .",
-        "lquestion": "ANSWER are two derivations of the string cc that produce distinct syntax trees from the context-free grammar $X \\rightarrow X c Y$ , $Y \\rightarrow X$ ,  $Y \\rightarrow$ and $X \\rightarrow$ .",
-        "answer": "X => XcY => XcYcY => cYcY => ccY => cc AND X => XcY => XcX => XcXcY => cXcY => ccY => cc",
-        "lanswer": "$X \\Rightarrow XcY \\Rightarrow XcYcY \\Rightarrow cYcY \\Rightarrow ccY \\Rightarrow cc$ AND $X \\Rightarrow XcY \\Rightarrow XcX \\Rightarrow XcXcY \\Rightarrow cXcY \\Rightarrow ccY \\Rightarrow cc$",
+        "answer": "X => XcY => XcYcY => cYcY => ccY => cc and X => XcY => XcX => XcXcY => cXcY => ccY => cc",
         "note": "optional note",
         "source": "ICD2"
      },
@@ -566,9 +533,7 @@ var examdatabase = {
      },
      {
         "question": "If I wanted to fix the grammar E -> E + E and E -> id, so that it would only produce one syntax tree, which is left recursive; the new grammar would be ANSWER.",
-        "lquestion": "If I wanted to fix the grammar $E \\rightarrow E + E$ and $E \\rightarrow id$, so that it would only produce one syntax tree, which is left recursive; the new grammar would be ANSWER.",
         "answer": "E -> E + F and E -> F and F -> id",
-        "lanswer": "$E \\rightarrow E + F$ and $E \\rightarrow F$ and $F \\rightarrow id$",
         "note": "the actual name of the nonterminals doesn't matter as long as they have this pattern of usage",
         "source": "ICD2"
      },
@@ -580,53 +545,42 @@ var examdatabase = {
      },
      {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> B, A -> a, B -> b, and B ->  the value of Nullable(A) is ANSWER.",
-        "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow B$, $A \\rightarrow a$, $B \\rightarrow b$, and $B \\rightarrow$  the value of Nullable(A) is ANSWER.",
         "answer": "true",
         "note": "optional note",
         "source": "ICD2"
      },
      {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> a, B -> b, B ->  the value of Nullable(A) is ANSWER.",
-        "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow a$, $B \\rightarrow b$, $B \\rightarrow$  the value of Nullable(A) is ANSWER.",
         "answer": "false",
         "note": "optional note",
         "source": "ICD2"
      },
      {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> B, A -> a, B -> b, and B ->  the value of FIRST(A) is ANSWER.",
-        "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow B$, $A \\rightarrow a$, $B \\rightarrow b$, and $B \\rightarrow$  the value of FIRST(A) is ANSWER.",
         "answer": "{a,b}",
-        "lanswer": "$\\{a,b\\}$",
         "note": "optional note",
         "source": "ICD2"
      },
      {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> a, B -> b, B ->  the value of FIRST(A) is ANSWER.",
-        "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow a$, $B \\rightarrow b$, $B \\rightarrow$  the value of FIRST(A) is ANSWER.",
         "answer": "{a,b}",
-        "lanswer": "$\\{a,b\\}$",
         "note": "optional note",
         "source": "ICD2"
      },
      {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> B, A -> a, B -> b, and B ->  the value of FOLLOW(A) is ANSWER.",
-        "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow B$, $A \\rightarrow a$, $B \\rightarrow b$, and $B \\rightarrow$  the value of FOLLOW(A) is ANSWER.",
         "answer": "{a,b}",
-        "lanswer": "$\\{a,b\\}$",
         "note": "optional note",
         "source": "ICD2"
      },
      {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> a, B -> b, B ->  the value of FOLLOW(A) is ANSWER.",
-        "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow a$, $B \\rightarrow b$, $B \\rightarrow$  the value of FOLLOW(A) is ANSWER.",
         "answer": "{b}",
-        "lanswer": "$\\{b\\}$",
         "note": "optional note",
         "source": "ICD2"
      },
      {
         "question": "The context-free grammar A -> B A , B -> A B, A -> a, B -> b, B ->  is not LL(1) specifically because ANSWER.",
-        "lquestion": "The context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow a$, $B \\rightarrow b$, $B \\rightarrow$  is not LL(1) specifically because ANSWER.",
         "answer": "FIRST(BA) and FIRST(a) both include a, so we do not know which A rule to use",
         "note": "optional note",
         "source": "ICD2"
@@ -652,14 +606,12 @@ var examdatabase = {
      {
         "question": "In Prolog, the most natural way to express the fact that `a lion is a cat' is ANSWER.",
         "answer": ["cat(lion).", "is_a(lion, cat)."],
-        "lanswer": ["cat(lion).", "is\\_a(lion, cat)."],
         "note": "optional note",
         "source": "SLSW4"
      },
      {
         "question": "In Prolog, the most natural way to express the query `what animals are cats?' is ANSWER.",
         "answer": ["cat(What).", "cats(What).", "is_a(What, cat).", "are(What, cats)."],
-        "lanswer": ["cat(What).", "cats(What).", "is\\_a(What, cat).", "are(What, cats)."],
         "note": "optional note",
         "source": "SLSW4"
      },
@@ -695,24 +647,19 @@ var examdatabase = {
      },
      {
         "question": "In Prolog, the expression [1, 2, 3] = [X | Y] causes X to have the value ANSWER.",
-        "lquestion": "In Prolog, the expression $\\lbrack 1, 2, 3\\rbrack = \\lbrack X | Y\\rbrack$ causes X to have the value ANSWER.",
         "answer": "1",
         "note": "optional note",
         "source": "SLSW4"
      },
      {
         "question": "In Prolog, the expression [1, 2, 3] = [X | Y] causes Y to have the value ANSWER.",
-        "lquestion": "In Prolog, the expression $\\lbrack 1, 2, 3\\rbrack = \\lbrack X | Y\\rbrack$ causes Y to have the value ANSWER.",
         "answer": "[2, 3]",
-        "lanswer": "$\\lbrack 2, 3\\rbrack$",
         "note": "optional note",
         "source": "SLSW4"
      },
      {
         "question": "In Prolog, the expression X = [[1,2] | [3,4]] causes X to have the value ANSWER.",
-        "lquestion": "In Prolog, the expression $X = \\lbrack \\lbrack 1,2\\rbrack | \\lbrack 3,4\\rbrack \\rbrack$ causes X to have the value ANSWER.",
         "answer": "[[1, 2], 3, 4]",
-        "lanswer": "$\\lbrack \\lbrack 1, 2\\rbrack, 3, 4\\rbrack$",
         "note": "optional note",
         "source": "SLSW4"
      },
@@ -958,7 +905,7 @@ var examdatabase = {
      },
      {
         "question": "The loop and recur constructs are in Clojure to guide ANSWER.",
-        "answer": ["tail recursion optimization","tail recursion elimination"],
+        "answer": "tail recursion optimization",
         "note": "optional note",
         "source": "SLSW7"
      },
@@ -970,7 +917,6 @@ var examdatabase = {
      },
      {
         "question": "In Clojure, (take 3 (iterate (fn [x] (* 2 x)) 2)) produces ANSWER.",
-        "lquestion": "In Clojure, (take 3 (iterate (fn $\\lbrack$x$\\rbrack$ (* 2 x)) 2)) produces ANSWER.",
         "answer": "(4 8 16)",
         "note": "optional note",
         "source": "SLSW7"
@@ -1025,7 +971,6 @@ var examdatabase = {
      },
      {
         "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while z < 3 do z := 1 + z', vtable, ftable), newvar() be invoked ANSWER times.",
-        "lquestion": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while z $<$ 3 do z := 1 + z', vtable, ftable), newvar() be invoked ANSWER times.",
         "answer": "5",
         "note": "optional note",
         "source": "ICD6"
@@ -1074,7 +1019,7 @@ var examdatabase = {
      },
      {
         "question": "When a function is invoked, if the language passes a copy of the value of each parameter to the code that performs the function, this is called ANSWER.",
-        "answer": ["call-by-value","pass-by-value"],
+        "answer": "call-by-value",
         "note": "optional note",
         "source": "ICD9"
      },
@@ -1092,7 +1037,7 @@ var examdatabase = {
      },
      {
         "question": "Another method of parameter passing, whose technical name is ANSWER, is implemented by passing the address of the variable (or whatever the given parameter is).  Assigning to such a parameter would then change the value stored at the address.",
-        "answer": ["call-by-reference","pass-by-reference"],
+        "answer": "call-by-reference",
         "note": "optional note",
         "source": "ICD9"
      },

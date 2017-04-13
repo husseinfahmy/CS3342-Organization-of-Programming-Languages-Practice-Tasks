@@ -1,9 +1,7 @@
-var examdatabase = {
+{
      "questiontemplate": {
         "question": "What is the answer?",
-        "lquestion": "latex reformatting for questions that needed it, absent if not needed",
         "answer": "That which was asked for",
-        "lanswer": "latex reformatting for answers that needed it, absent if not needed",
         "note": "optional note",
         "source": "SLSW# or ICD# where # is chapter number"
      },
@@ -245,7 +243,7 @@ var examdatabase = {
      {
         "question": "In Haskell, if I define a function double = x + x, its type signature would be ANSWER.",
         "answer": "(Num a) => a -> a",
-        "lanswer": "$(Num \\quad a) \\Rightarrow a \\rightarrow a$",
+        "lanswer": "$(Num a) \\Rightarrow a \\rightarrow a$",
         "note": "optional note",
         "source": "SLSW8"
      },
@@ -257,7 +255,7 @@ var examdatabase = {
      },
      {
         "question": "In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with | x > 1 = x * factorial ( x - a).  This second style is called ANSWER.",
-        "lquestion": "In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with $|$ x $>$ 1 = x * factorial ( x - a).  This second style is called ANSWER.",
+        "lquestion": "In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with $|$ x > 1 = x * factorial ( x - a).  This second style is called ANSWER.",
         "answer": "using guards",
         "note": "optional note",
         "source": "SLSW8"
@@ -331,7 +329,7 @@ var examdatabase = {
      {
         "question": "In Haskell, the type signature of the function sum x y = x + y is ANSWER.",
         "answer": "(Num a) => a -> a -> a",
-        "lanswer": "$(Num \\quad a) => a \\rightarrow a \\rightarrow a$",
+        "lanswer": "$(Num a) => a \\rightarrow a \\rightarrow a$",
         "note": "optional note",
         "source": "SLSW8"
      },
@@ -412,7 +410,7 @@ var examdatabase = {
         "source": "ICD1"
      },
      {
-        "question": "The specifications of how to group characters into meaningful basic units of a programming language are generally implemented in code that has the abstract form of ANSWER.",
+        "question": "The specifications of how to group characters into meaningful basic units of a programming language are generlly implemented in code that has the abstract form of ANSWER.",
         "answer": ["a finite automata", "a finite state machine"],
         "note": "optional note",
         "source": "ICD1"
@@ -553,8 +551,8 @@ var examdatabase = {
      {
         "question": "ANSWER are two derivations of the string cc that produce distinct syntax trees from the context-free grammar X -> X c Y , Y -> X ,  Y -> and X -> .",
         "lquestion": "ANSWER are two derivations of the string cc that produce distinct syntax trees from the context-free grammar $X \\rightarrow X c Y$ , $Y \\rightarrow X$ ,  $Y \\rightarrow$ and $X \\rightarrow$ .",
-        "answer": "X => XcY => XcYcY => cYcY => ccY => cc AND X => XcY => XcX => XcXcY => cXcY => ccY => cc",
-        "lanswer": "$X \\Rightarrow XcY \\Rightarrow XcYcY \\Rightarrow cYcY \\Rightarrow ccY \\Rightarrow cc$ AND $X \\Rightarrow XcY \\Rightarrow XcX \\Rightarrow XcXcY \\Rightarrow cXcY \\Rightarrow ccY \\Rightarrow cc$",
+        "answer": "X => XcY => XcYcY => cYcY => ccY => cc and X => XcY => XcX => XcXcY => cXcY => ccY => cc",
+        "lanswer": "$X \\Rightarrow XcY \\Rightarrow XcYcY \\Rightarrow cYcY \\Rightarrow ccY \\Rightarrow cc and X \\Rightarrow XcY \\Rightarrow XcX \\Rightarrow XcXcY \\Rightarrow cXcY \\Rightarrow ccY \\Rightarrow cc$",
         "note": "optional note",
         "source": "ICD2"
      },
@@ -596,7 +594,7 @@ var examdatabase = {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> B, A -> a, B -> b, and B ->  the value of FIRST(A) is ANSWER.",
         "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow B$, $A \\rightarrow a$, $B \\rightarrow b$, and $B \\rightarrow$  the value of FIRST(A) is ANSWER.",
         "answer": "{a,b}",
-        "lanswer": "$\\{a,b\\}$",
+        "lanswer": "${a,b}$",
         "note": "optional note",
         "source": "ICD2"
      },
@@ -604,7 +602,7 @@ var examdatabase = {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> a, B -> b, B ->  the value of FIRST(A) is ANSWER.",
         "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow a$, $B \\rightarrow b$, $B \\rightarrow$  the value of FIRST(A) is ANSWER.",
         "answer": "{a,b}",
-        "lanswer": "$\\{a,b\\}$",
+        "lanswer": "${a,b}$",
         "note": "optional note",
         "source": "ICD2"
      },
@@ -612,7 +610,7 @@ var examdatabase = {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> B, A -> a, B -> b, and B ->  the value of FOLLOW(A) is ANSWER.",
         "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow B$, $A \\rightarrow a$, $B \\rightarrow b$, and $B \\rightarrow$  the value of FOLLOW(A) is ANSWER.",
         "answer": "{a,b}",
-        "lanswer": "$\\{a,b\\}$",
+        "lanswer": "${a,b}$",
         "note": "optional note",
         "source": "ICD2"
      },
@@ -620,7 +618,7 @@ var examdatabase = {
         "question": "In the context-free grammar A -> B A , B -> A B, A -> a, B -> b, B ->  the value of FOLLOW(A) is ANSWER.",
         "lquestion": "In the context-free grammar $A \\rightarrow B A$ , $B \\rightarrow A B$, $A \\rightarrow a$, $B \\rightarrow b$, $B \\rightarrow$  the value of FOLLOW(A) is ANSWER.",
         "answer": "{b}",
-        "lanswer": "$\\{b\\}$",
+        "lanswer": "${b}$",
         "note": "optional note",
         "source": "ICD2"
      },
@@ -958,7 +956,7 @@ var examdatabase = {
      },
      {
         "question": "The loop and recur constructs are in Clojure to guide ANSWER.",
-        "answer": ["tail recursion optimization","tail recursion elimination"],
+        "answer": "tail recursion optimization",
         "note": "optional note",
         "source": "SLSW7"
      },
@@ -1074,7 +1072,7 @@ var examdatabase = {
      },
      {
         "question": "When a function is invoked, if the language passes a copy of the value of each parameter to the code that performs the function, this is called ANSWER.",
-        "answer": ["call-by-value","pass-by-value"],
+        "answer": "call-by-value",
         "note": "optional note",
         "source": "ICD9"
      },
@@ -1092,7 +1090,7 @@ var examdatabase = {
      },
      {
         "question": "Another method of parameter passing, whose technical name is ANSWER, is implemented by passing the address of the variable (or whatever the given parameter is).  Assigning to such a parameter would then change the value stored at the address.",
-        "answer": ["call-by-reference","pass-by-reference"],
+        "answer": "call-by-reference",
         "note": "optional note",
         "source": "ICD9"
      },
