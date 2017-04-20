@@ -8,15 +8,17 @@
 	var historyAnswers = [];
 	var historyResults = [];
 
+	var max = examdatabase.questions.length;
+
 	function onLoad(){
 		document.getElementById("description").innerHTML = examdatabase.description;
-
+		console.log(max);
 		document.getElementById("correctAndIncorrect").innerHTML = "Correct: " + correctCount + " Incorrect: " + incorrectCount; 
 	}
 
 	function newQuestion(){
 		if(marked == true){
-			currentQ = Math.floor(Math.random() * (34 - 0 + 1)) + 0;
+			currentQ = Math.floor(Math.random() * (examdatabase.questions.length - 0 + 1)) + 0;
 			document.getElementById("question").innerHTML = examdatabase.questions[currentQ].question;
 			document.getElementById("answer").innerHTML = "";
 			i = 0;

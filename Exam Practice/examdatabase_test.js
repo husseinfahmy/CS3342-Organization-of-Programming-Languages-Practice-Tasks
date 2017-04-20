@@ -1,4 +1,4 @@
-var examdatabase = {
+var examdatabase_test = {
      "questiontemplate": {
         "question": "What is the answer?",
         "answer": "That which was asked for",
